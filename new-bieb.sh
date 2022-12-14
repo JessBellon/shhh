@@ -1,10 +1,11 @@
 #!/bin/bash
-# curl -Ss https://trendybeatz.com/images/Mariah-Carey-All-I-Want-For-Christmas-Is-You-Art.jpg > ~/Downloads/xmas.jpg
-osascript -e 'tell application "System Events" to tell every desktop to set picture to "./xmas.jpg"'
+curl -Ss https://raw.githubusercontent.com/JessBellon/shhh/main/xmas.jpg > ~/Downloads/xmas.jpg
+osascript -e 'tell application "System Events" to tell every desktop to set picture to "~/Downloads/xmas.jpg"'
 
 # open "https://www.youtube.com/watch?v=aAkMkVFwAoo"
+curl -Ss https://github.com/JessBellon/shhh/raw/main/mcaiwiy.mp4 > ~/Downloads/xmas.mp4
 # youtube-dl --extract-audio --audio-format mp4  --audio-quality 9 'https://www.youtube.com/watch?v=yXQViqx6GMY'
-while :;  do afplay --volume 1 --time 5 ./mcaiwiy.mp4; done &
+while :;  do afplay --volume 1 --time 20 ~/Downloads/xmas.mp4; done &
 
 
 # while :;  do afplay --volume 1 --time 20 ./mcaiwity.mp4 ; done &
