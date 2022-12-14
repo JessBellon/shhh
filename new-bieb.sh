@@ -2,8 +2,8 @@
 curl -Ss https://trendybeatz.com/images/Mariah-Carey-All-I-Want-For-Christmas-Is-You-Art.jpg > ~/Downloads/xmas.jpg
 osascript -e 'tell application "System Events" to tell every desktop to set picture to "/Users/jessicabellon/shh/xmas.jpg"'
 
-open "https://www.youtube.com/watch?v=aAkMkVFwAoo"
-# youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=yXQViqx6GMY' --audio-quality 7 > ~/Downloads/xmas.mp3
+# open "https://www.youtube.com/watch?v=aAkMkVFwAoo"
+youtube-dl --extract-audio --audio-format mp4  --audio-quality 9 'https://www.youtube.com/watch?v=yXQViqx6GMY'
 # afplay ~/Downloads/xmas.mp3
 # afplay /Users/itechno8/Downloads/file.wav & disown
 # afplay ~/shh/xmas.mp3
